@@ -1,0 +1,95 @@
+--- # RECIPES
+- 
+    recipe: Ensalada de rucola
+    ingredients: 
+        - rucola
+        - tomate
+        - queso mozarella
+        - zanahoria
+        - nueces
+    groups:
+        - verduras/hortalizas
+        - lacteos
+        - frutos secos
+    type:
+        - lunch
+        - dinner
+    count: 0
+-
+    recipe: Ensalada de lechuga
+    ingredients: 
+        - lechuga
+        - tomate
+        - queso mozarella
+        - zanahoria
+        - nueces
+    groups:
+        - verduras/hortalizas
+        - lacteos
+        - frutos secos
+    type:
+        - lunch
+        - dinner
+    count: 0
+-
+    recipe: Estofado de ternera con patatas y zanahoria
+    ingredients:
+        - carne de ternera
+        - cebolla
+        - ajo
+        - patata
+        - zanahoria
+        - laurel
+    groups:
+        - carne
+        - verduras/hortalizas
+        - tubérculos
+    type:
+        - lunch
+    count: 0
+-
+    recipe: Judias con chorizo
+    ingredients:
+        - judias blancas o pintas
+        - patatas
+        - chorizo
+        - cebolla
+        - laurel
+    groups:
+        - legumbres
+        - carne
+        - verduras/hortalizas
+    type:
+        - lunch
+    count: 0
+-
+    recipe: Rollitos de berenjena
+    ingredients:
+        - berenjena
+        - queso feta
+        - tomate frito
+        - cebolla
+        - ajo
+        - alcaparras 
+    groups:
+        - lacteos
+        - verduras/hortalizas
+    type:
+        - lunch
+        - dinner
+    count: 0
+-
+    recipe: Pasta integral con tomate
+    ingredients:
+        - pasta integral
+        - tomate frito
+        - alcaparras
+        - cebolla
+        - ajo
+        - albahaca
+    groups:
+        - pasta
+    type:
+        - lunch
+        - dinner
+    count: 0
