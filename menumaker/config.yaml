@@ -1,8 +1,8 @@
 --- # MENUMAKER CONFIG FILE
 -
     days: 7
-    lunch: "13:00"
-    dinner: "21:00"
+    lunch: "12:30"
+    dinner: "18:30"
     header: ""
 
     week_recommendations:
