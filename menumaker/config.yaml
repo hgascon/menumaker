@@ -1,8 +1,9 @@
 --- # MENUMAKER CONFIG FILE
 -
-    menu_weeks: 1
-    lunch_time: "12:30"
-    dinner_time: "21:00"
+    days: 7
+    lunch: "13:00"
+    dinner: "21:00"
+    header: ""
 
     week_recommendations:
         lacteos: None
@@ -12,34 +13,35 @@
         tubérculos:
         legumbres: 3
         frutos secos: 7
-        verduras/hortalizas: 7
-        pasta/cereales:
+        verduras: 7
+        pasta: 1
+        cereales: None
 
     weekdays: 
         Monday:
             lunch: legumbres
-            dinner: Ensalada de Rucola
+            dinner: ensalada de rucola
 
         Tuesday:
-            lunch: 
-            dinner: 
+            lunch: verduras
+            dinner: verduras
 
         Wednesday:
-            lunch:
-            dinner: 
+            lunch: pastas
+            dinner: pescados
 
         Thursday:
-            lunch: 
-            dinner:
+            lunch: arroces
+            dinner: huevos, verduras
 
-        Triday:
-            lunch:
-            dinner:
+        Friday:
+            lunch: legumbres
+            dinner: verduras
 
         Saturday:
-            lunch: 
-            dinner:
+            lunch: carnes
+            dinner: verduras
 
         Sunday:
-            lunch:
-            dinner:
+            lunch: pastas
+            dinner: verduras
