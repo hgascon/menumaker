@@ -1,0 +1,122 @@
+--- # MENUMAKER CONFIG FILE
+-
+    arroces:
+      - arroz
+      - arroz para risotto
+    carnes:
+      - carne
+      - carne de ternera
+      - carne de ternera picada
+      - carne picada
+      - chorizo
+      - pollo
+      - taquitos de jamón
+      - ternera picada
+    cereales:
+      - cuscús
+      - harina
+      - masa para empanadillas
+      - masa para flammkuchen
+      - maíz
+      - pan
+      - pan rallado
+      - polenta
+    especias:
+      - ajo
+      - ajo en polvo
+      - albahaca
+      - albahaca fresca
+      - caldo de verduras
+      - canela
+      - cilantro
+      - cilantro fresco
+      - comino molido
+      - curry
+      - cúrcuma
+      - gengibre
+      - hinojo
+      - laurel
+      - menta fresca
+      - orégano
+      - perejil
+      - pimentón
+      - pimentón dulce
+      - pimienta negra
+      - pimienta negra en grano
+      - ras-el-hanout
+      - romero
+      - tomillo en rama
+    frutas:
+      - granada
+      - lima
+      - limón
+      - manzana
+      - pera
+    frutos secos:
+      - nueces
+      - piñones
+      - tahini
+    huevos:
+      - huevo
+    lacteos:
+      - leche
+      - creme fresh
+      - parmesano
+      - queso
+      - queso de cabra
+      - queso feta
+      - queso manchego
+      - queso mozarella
+      - queso para pizza
+      - queso parmesano
+      - yogur
+    legumbres:
+      - alubias rojas o negras
+      - garbanzos de bote
+      - judias blancas o pintas
+      - lentejas
+      - lentejas rojas
+    pastas:
+      - fideos
+      - pasta
+      - pasta integral
+    pescados:
+      - lomos de atún
+      - salmón
+      - salmón ahumado
+    tubérculos:
+      - patatas
+      - boniato
+    verduras:
+      - apio
+      - berenjena
+      - brócoli
+      - calabacín
+      - cebolla
+      - cebolla roja
+      - champiñones
+      - col roja
+      - coliflor
+      - espinacas
+      - espárragos trigueros
+      - guisantes
+      - judía verde redonda fresca
+      - lechuga
+      - pepino
+      - pimiento
+      - pimiento verde
+      - remolacha
+      - rucola
+      - tomate
+      - tomate frito
+      - tomate triturado
+      - zanahoria
+    aceites:
+      - leche de coco
+      - aceite
+    alcoholes:
+      - vino blanco
+    otros:
+      - alcaparras
+    condimentos:
+      - mostaza
