@@ -1,6 +1,10 @@
 import argparse
+import os
+import shutil
 import sys
 import yaml
+from yaml import CDumper
+from yaml.representer import SafeRepresenter
 import pandas as pd
 from ics import Calendar, Event
 import datetime
@@ -8,28 +12,39 @@ import ciso8601
 from tabulate import tabulate
 
 
+class TSDumper(CDumper):
+    pass
+
+
+def timestamp_representer(dumper, data):
+    return SafeRepresenter.represent_datetime(dumper, data.to_pydatetime())
+
+
+TSDumper.add_representer(datetime.datetime, SafeRepresenter.represent_datetime)
+TSDumper.add_representer(pd.Timestamp, timestamp_representer)
+
+
 class Menumaker(object):
 
     def __init__(self, start_date):
         self.config = yaml.load(open("./config.yaml").read(), Loader=yaml.FullLoader)
+        self.groups = yaml.load(open("./groups.yaml").read(), Loader=yaml.FullLoader)[0]
         self.recipes = self.load_recipes()
         self.menu = pd.DataFrame(columns=["date", "day", "meal", "recipe", "ingredients"])
         self.update_iteration = 0
         self.start_date = start_date
 
-    @staticmethod
-    def load_recipes():
+    def load_recipes(self):
         recipes = pd.json_normalize(yaml.load(open("./recipes.yaml").read(),
                                                    Loader=yaml.FullLoader))
         recipes['date'] = pd.to_datetime(recipes['date'])
         recipes['count'] = recipes['count'].astype(int)
 
         # build mapping ingredient -> group
-        groups = yaml.load(open("./groups.yaml").read(), Loader=yaml.FullLoader)[0]
-        ingredients = {i: g for g, l in groups.items() for i in l}
+        ingredients = {i: g for g, l in self.groups.items() for i in l}
 
         # create empty columns for different groups
-        for g in groups.keys():
+        for g in self.groups.keys():
             recipes[g] = recipes.shape[0] * [False]
 
         def set_groups(row):
@@ -54,6 +69,7 @@ class Menumaker(object):
         else:
             today = datetime.date.today()
             next_monday = today + datetime.timedelta(days=-today.weekday(), weeks=1)
+            self.start_date = next_monday
             current_date = next_monday
         for day in day_meals.keys():
             dates[day] = current_date
@@ -83,7 +99,7 @@ class Menumaker(object):
 
         previous_update_idx = None
         update_idx = self.verify_menu()
-        while update_idx:
+        while update_idx != "break":
             if update_idx != previous_update_idx and previous_update_idx is not None:
                 self.update_iteration = 0
             self.update_iteration += 1
@@ -91,7 +107,24 @@ class Menumaker(object):
             previous_update_idx = update_idx
             update_idx = self.verify_menu()
 
-    # TODO update dates and counts after confirmation of menu
+        # backup recipes file and save update version
+        shutil.copyfile('./recipes.yaml', './recipes.yaml.bak')
+        self.recipes.loc[self.menu['recipe_id'].astype(int), 'count'] += 1
+        self.recipes['date'] = self.recipes['new_date']
+        self.recipes.drop(columns=['new_date'] + list(self.groups.keys()), axis=1, inplace=True)
+        text = yaml.dump(
+            self.recipes.set_index('recipe').reset_index().to_dict(orient='records'),
+            sort_keys=False, width=100, indent=4, allow_unicode=True,
+            default_flow_style=None, Dumper=TSDumper,
+        )
+        with open('./recipes.yaml', 'w') as f:
+            f.write(text)
+
+        # save menu in log file
+        self.menu[['date', 'recipe']].to_csv('./menu.log',
+                                             mode='a',
+                                             header=False,
+                                             index=False)
 
     def select_recipe_index(self, meal, groups):
         try:
@@ -106,9 +139,14 @@ class Menumaker(object):
         return idx 
 
     def verify_menu(self):
-        print(tabulate(self.menu, headers='keys', tablefmt='psql'))
+        show = ['day', 'meal', 'recipe', 'date']
+        os.system('clear')
+        print(tabulate(self.menu.drop(columns=['ingredients',
+                                               'groups',
+                                               'count',
+                                               'recipe_id'])[show], headers='keys', tablefmt='psql'))
         while True:
-            idx = input("Select a meal number to change it or write \"save\" to accept the menu:")
+            idx = input("Select a meal number to change it or write \"save\" to accept the menu: ")
             if idx != "save":
                 try:
                     idx = int(idx)
@@ -117,7 +155,7 @@ class Menumaker(object):
                 except ValueError:
                     continue
             else:
-                return None
+                return "break"
 
     def update_menu(self, update_idx):
         # restore previous date from unwanted meal
@@ -131,30 +169,32 @@ class Menumaker(object):
         self.menu.at[update_idx, 'ingredients'] = self.recipes.at[idx, 'ingredients']
         self.menu.at[update_idx, 'count'] = self.recipes.at[idx, 'count']
 
+    def export_menu_calendar(self):
+        c = Calendar()
+        # create calendar event
+        for _, row in self.menu.iterrows():
+            e = Event()
+            e.name = '[' + row['meal'].capitalize() + '] ' + row['recipe']
+            t = datetime.datetime.strptime(row['date'], "%Y-%m-%d %H:%M:%S") - datetime.timedelta(hours=2)
+            e.begin = t.strftime("%Y-%m-%d %H:%M:%S")
+            if row['meal'] == 'lunch':
+                e.duration = {"minutes": 30}
+            else:
+                e.duration = {"minutes": 60}
+            e.description = "\n".join(row["ingredients"])
+            c.events.add(e)
 
-
-
-# def create_calendar_menu(self):
-    #     c = Calendar()
-    #     # create calendar event
-    #     e = Event()
-    #     e.name = "[" + meal.capitalize() + "] " + df.at[idx, "recipe"]
-    #     e.begin = t.strftime("%Y-%m-%d %H:%M:%S")
-    #     e.duration = {"minutes": 30}
-    #     e.description = "\n".join(df.at[idx, "ingredients"])
-    #     c.events.add(e)
-    #     shopping_list = "\n".join(list(set([i for l in menu.ingredients.values for i in l])))
-    #     e.name = "Shopping List"
-    #     #TODO change next_monday here with the date of the first menu date
-    #     e.begin = next_monday.strftime("%Y-%m-%d %H:%M:%S")
-    #     e.description = shopping_list
-    #     e.make_all_day()
-    #     c.events.add(e)
-    #     fname = "menu_{}.ics".format(next_monday.strftime("%Y%m%d"))
-    #     with open(fname, 'w') as my_file:
-    #         my_file.writelines(c)
-
-
+        e = Event()
+        shopping_list = "\n".join(list(set([i for l in self.menu.ingredients.values for i in l])))
+        e.name = "Shopping List"
+        e.begin = self.start_date.strftime("%Y-%m-%d %H:%M:%S")
+        e.description = shopping_list
+        e.make_all_day()
+        c.events.add(e)
+        fname = "menus/menu_{}.ics".format(self.start_date.strftime("%Y%m%d"))
+        with open(fname, 'w') as my_file:
+            my_file.writelines(c)
+        os.system(f"open {fname}")
 
 
 if __name__ == '__main__':
@@ -162,5 +202,7 @@ if __name__ == '__main__':
     parser.add_argument('--date', '-d', default=None,
                         help="First day of menu <DD-MM> (Default: Next Monday)")
     args = parser.parse_args()
-    Menumaker(args.date).build_menu()
+    mm = Menumaker(args.date)
+    mm.build_menu()
+    mm.export_menu_calendar()
     sys.exit(1)
