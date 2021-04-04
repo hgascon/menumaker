@@ -90,6 +90,7 @@ class Menumaker(object):
                      "recipe": self.recipes.at[idx, "recipe"],
                      "ingredients": self.recipes.at[idx, "ingredients"],
                      "count": self.recipes.at[idx, 'count'],
+                     "notes": self.recipes.at[idx, 'notes'],
                      "recipe_id": idx}
 
                 # update provisional new date
@@ -181,7 +182,7 @@ class Menumaker(object):
                 e.duration = {"minutes": 30}
             else:
                 e.duration = {"minutes": 60}
-            e.description = "\n".join(row["ingredients"])
+            e.description = '\n'.join(row['ingredients']) + f"\n\n{row['notes']}"
             c.events.add(e)
 
         e = Event()
@@ -200,7 +201,10 @@ class Menumaker(object):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--date', '-d', default=None,
-                        help="First day of menu <DD-MM> (Default: Next Monday)")
+                        help="First day of menu <YYYY-MM-DD> (Default: Next Monday)")
+    # TODO option to find ingredients w/o group and assign them in groups.yaml
+    # TODO option to consolidate ingredients
+    # TODO test different start dates
     args = parser.parse_args()
     mm = Menumaker(args.date)
     mm.build_menu()
