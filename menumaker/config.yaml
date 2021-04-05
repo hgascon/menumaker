@@ -1,6 +1,5 @@
 --- # MENUMAKER CONFIG FILE
 -
-    days: 7
     lunch: "12:30"
     dinner: "18:30"
     header: ""
