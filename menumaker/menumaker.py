@@ -72,6 +72,7 @@ class Menumaker(object):
             # if start_date is not defined we set it to next Monday
             next_monday_date = today + datetime.timedelta(days=-today.weekday(), weeks=1)
             start_date = next_monday_date
+            self.start_date = start_date
         start_weekday = start_date.weekday()
 
         weekday_meals_d = self.config[0]['weekdays']
@@ -150,7 +151,7 @@ class Menumaker(object):
         # restore previous date from unwanted meal
         meal = self.menu.at[update_idx, 'meal']
         groups = self.menu.at[update_idx, 'groups']
-        idx = self._select_recipe_index(meal, groups)
+        idx = self._select_recipe_index(meal, groups, sort_by='date')
         # change new_date of new recipe and restore the old date of the unwanted recipe
         old_recipe_idx = self.menu.at[update_idx, 'recipe_id']
         self.recipes.at[idx, 'new_date'] = self.recipes.at[old_recipe_idx, 'new_date']
@@ -168,9 +169,9 @@ class Menumaker(object):
                                              header=False,
                                              index=False)
 
-    def _select_recipe_index(self, meal, groups):
+    def _select_recipe_index(self, meal, groups, sort_by="new_date"):
         try:
-            selected = self.recipes[self.recipes[meal]][self.recipes[groups.replace(' ', '').split(',')].all(axis=1)].sort_values("date")
+            selected = self.recipes[self.recipes[meal]][self.recipes[groups.replace(' ', '').split(',')].all(axis=1)].sort_values(sort_by)
             if self.update_iteration >= selected.shape[0]:
                 self.update_iteration = 0
             idx = selected.index[self.update_iteration]
