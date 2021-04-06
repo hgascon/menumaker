@@ -171,7 +171,8 @@ class Menumaker(object):
 
     def _select_recipe_index(self, meal, groups, sort_by="new_date"):
         try:
-            selected = self.recipes[self.recipes[meal]][self.recipes[groups.replace(' ', '').split(',')].all(axis=1)].sort_values(sort_by)
+            groups_idx = self.recipes[groups.replace(' ', '').split(',')]
+            selected = self.recipes[self.recipes[meal] & groups_idx.all(axis=1)].sort_values(sort_by)
             if self.update_iteration >= selected.shape[0]:
                 self.update_iteration = 0
             idx = selected.index[self.update_iteration]
