@@ -19,16 +19,29 @@ carnes:
 - bratwurst
 - pechugas de pollo
 - ternera en trozos
+- filetes de pollo/pavo/cerdo/ternera
+- jamón en tacos
+- jamón serrano
+- panceta
+- pavo en tiras
+- pechuga de pollo
+- pollo en tiras
+- ternera en tiras
+- ternera troceada
+- weißwürst
 cereales:
 - cuscús
 - harina
 - masa para empanadillas
 - masa para flammkuchen
-- maíz
 - pan
 - pan rallado
 - polenta
 - pan blanco
+- bulgur
+- masa de pizza
+- quinoa
+- tortillas para tacos
 condimentos:
 - leche de coco
 - mostaza
@@ -40,6 +53,11 @@ condimentos:
 - sauercream
 - tomate seco
 - vinagre
+- chili
+- chili en polvo
+- hierbabuena fresca
+- menta
+- sal
 especias:
 - ajo en polvo
 - albahaca
@@ -68,6 +86,10 @@ especias:
 - nuez moscada
 - perejil fresco
 - ras el hanout
+- eneldo
+- pimienta
+- pimienta negra molida
+- romero/tomillo en rama
 frutas:
 - granada
 - lima
@@ -98,6 +120,7 @@ lacteos:
 - nata
 - queso cheddar
 - queso de cabra en rollo
+- queso mozarella para pizza
 legumbres:
 - alubias rojas o negras
 - garbanzos de bote
@@ -106,10 +129,12 @@ legumbres:
 - lentejas rojas
 - judías rojas
 - lentejas de beluga
+- garbanzos
 otros:
 - alcaparras
 - pasta para empanadillas
 - pasta para flammkuchen
+- aceitunas
 pastas:
 - fideos
 - pasta
@@ -118,11 +143,19 @@ pescados:
 - lomos de atún
 - salmón
 - salmón ahumado
+- anchoas
+- filetes de atún
+- filetes de bacalao
+- filetes de salmón
+- gambas
 tubérculos:
 - patatas
 - boniato
 - patata
+- gnocci
+- sußkartoffeln
 verduras:
+- maíz
 - apio
 - berenjena
 - brócoli
@@ -154,3 +187,17 @@ verduras:
 - rábanos
 - tomates
 - zanahorias
+- aguacate
+- brotes de soja
+- cebolletas
+- escarola
+- espinaca baby
+- espinacas baby
+- espárragos verdes
+- habichuelillas verdes
+- judías verdes
+- mazorcas de maíz
+- pimiento rojo
+- pimientos de padrón
+- puerro
+- tomates secos
