@@ -96,10 +96,8 @@ class Menumaker(object):
                 d = {"day": menu_weekday,
                      "date": t.strftime("%Y-%m-%d %H:%M:%S"),
                      "meal": meal,
-                     "groups": groups,
                      "recipe": self.recipes.at[idx, "recipe"],
                      "ingredients": self.recipes.at[idx, "ingredients"],
-                     "count": self.recipes.at[idx, 'count'],
                      "notes": self.recipes.at[idx, 'notes'],
                      "recipe_id": int(idx)}
 
@@ -108,14 +106,27 @@ class Menumaker(object):
                 # add recipe to menu
                 self.menu = self.menu.append(d, ignore_index=True)
 
-        previous_update_idx = None
+        # previous_update_idx = None
         update_idx = self._verify_menu()
         while update_idx != "break":
-            if update_idx != previous_update_idx and previous_update_idx is not None:
-                self.update_iteration = 0
-            self.update_iteration += 1
-            self._update_menu(update_idx)
-            previous_update_idx = update_idx
+            question = [
+                inquirer.List('group',
+                              message=f"Select new recipe",
+                              choices=list(self.recipes.sort_values(by=['new_date'])['recipe'].values)
+                              ),
+            ]
+            print()
+            answer = inquirer.prompt(question, theme=GreenPassion())['group']
+            idx = self.recipes[self.recipes['recipe'] == answer].index[0]
+            old_recipe_idx = self.menu.at[update_idx, 'recipe_id']
+            # and update the menu with the selected recipe
+            self.menu.at[update_idx, 'recipe'] = answer
+            self.menu.at[update_idx, 'recipe_id'] = idx
+            self.menu.at[update_idx, 'ingredients'] = self.recipes.at[idx, 'ingredients']
+            # we assign the menu date to the selected recipe
+            self.recipes.at[idx, 'new_date'] = self.recipes.at[old_recipe_idx, 'new_date']
+            # and restore the previous date of the discarded recipe
+            self.recipes.at[old_recipe_idx, 'new_date'] = self.recipes.at[old_recipe_idx, 'date']
             update_idx = self._verify_menu()
 
         self._update_recipes()
@@ -147,21 +158,6 @@ class Menumaker(object):
             yaml.dump(dict(updated_groups), f, indent=4, allow_unicode=True)
         print(f"[INFO] Food group file updated!")
 
-    def _update_menu(self, update_idx):
-        # restore previous date from unwanted meal
-        meal = self.menu.at[update_idx, 'meal']
-        groups = self.menu.at[update_idx, 'groups']
-        idx = self._select_recipe_index(meal, groups, sort_by='date')
-        # change new_date of new recipe and restore the old date of the unwanted recipe
-        old_recipe_idx = self.menu.at[update_idx, 'recipe_id']
-        self.recipes.at[idx, 'new_date'] = self.recipes.at[old_recipe_idx, 'new_date']
-        self.recipes.at[old_recipe_idx, 'new_date'] = self.recipes.at[old_recipe_idx, 'date']
-        # update menu values with new selected recipe
-        self.menu.at[update_idx, 'recipe_id'] = int(idx)
-        self.menu.at[update_idx, 'recipe'] = self.recipes.at[idx, 'recipe']
-        self.menu.at[update_idx, 'ingredients'] = self.recipes.at[idx, 'ingredients']
-        self.menu.at[update_idx, 'count'] = self.recipes.at[idx, 'count']
-
     def _save_menu(self):
         # save menu in log file
         self.menu[['date', 'recipe']].to_csv('./menu.log',
@@ -179,15 +175,13 @@ class Menumaker(object):
         except KeyError:
             # if a specific recipe is give for a day, no groups are
             # matched and the specific recipe is selected
-            idx = self.recipes[self.recipes["recipe"] == groups].index[0] 
-        return idx 
+            idx = self.recipes[self.recipes["recipe"] == groups].index[0]
+        return idx
 
     def _verify_menu(self):
         show = ['day', 'meal', 'recipe', 'date']
         os.system('clear')
         print(tabulate(self.menu.drop(columns=['ingredients',
-                                               'groups',
-                                               'count',
                                                'recipe_id'])[show], headers='keys', tablefmt='psql'))
         while True:
             idx = input("Select a meal number to change it or write \"save\" to accept the menu: ")
@@ -203,6 +197,7 @@ class Menumaker(object):
 
     def export_menu_calendar(self):
         c = Calendar()
+        shopping_list = []
         # create calendar event
         for _, row in self.menu.iterrows():
             e = Event()
@@ -213,14 +208,18 @@ class Menumaker(object):
                 e.duration = {"minutes": 30}
             else:
                 e.duration = {"minutes": 60}
-            e.description = '\n'.join(row['ingredients']) + f"\n\n{row['notes']}"
+            try:
+                e.description = '\n'.join(row['ingredients']) + f"\n\n{row['notes']}"
+                shopping_list.append('\n'.join(row['ingredients']))
+            except TypeError:
+                e.description = "Please fill the ingredientes for this recipe!"
+                shopping_list.append(f"Ingredients for {row['recipe']}")
             c.events.add(e)
 
         e = Event()
-        shopping_list = "\n".join(list(set([i for l in self.menu.ingredients.values for i in l])))
         e.name = "Shopping List"
         e.begin = self.start_date
-        e.description = shopping_list
+        e.description = '\n'.join(shopping_list)
         e.make_all_day()
         c.events.add(e)
         fname = "menus/menu_{}.ics".format(self.start_date)
@@ -258,6 +257,12 @@ class Menumaker(object):
                     self._save_groups()
                     break
 
+    def reset(self):
+        self.recipes.at[:, 'date'] = pd.to_datetime(0)
+        self.recipes.at[:, 'count'] = 0
+        self._save_recipes()
+        print(f"[INFO] Dates in recipes file reset!")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -267,10 +272,14 @@ if __name__ == '__main__':
                         help="Number of days in menu (default: 7)")
     parser.add_argument('--groups', '-g', dest='g', default=False, action='store_true',
                         help="Consolidate new ingredients in groups and rewrite wrong spellings.")
+    parser.add_argument('--reset', '-r', dest='r', default=False, action='store_true',
+                        help="Reset last date of all recipes.")
     args = parser.parse_args()
     mm = Menumaker(args.date, args.days)
     if args.g:
         mm.consolidate_ingredients()
+    elif args.r:
+        mm.reset()
     else:
         mm.build_menu()
         mm.export_menu_calendar()
