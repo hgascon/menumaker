@@ -1,1 +1,2132 @@
-/Users/hgascon/Google Drive/recipes.yaml
+-   recipe: ensalada de rucola
+    ingredients:
+    - rucola
+    - tomate
+    - queso mozarella
+    - zanahoria
+    - nueces
+    lunch: true
+    dinner: true
+    count: 1
+    date: 1970-01-01 00:00:00
+    notes: Cortar rucola con la tijera para que tenga más sabor y no atragante.
+-   recipe: ensalada de lechuga con zanahoria
+    ingredients:
+    - lechuga
+    - tomate
+    - queso mozarella
+    - zanahoria
+    - nueces
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: estofado de ternera con patatas y zanahoria
+    ingredients:
+    - carne de ternera
+    - cebolla
+    - ajo
+    - patatas
+    - zanahoria
+    - laurel
+    - romero
+    - pimiento verde
+    - tomate frito
+    lunch: true
+    dinner: false
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: judias con chorizo
+    ingredients:
+    - judias blancas o pintas
+    - patatas
+    - chorizo
+    - cebolla
+    - laurel
+    lunch: true
+    dinner: false
+    count: 1
+    date: 2021-04-19 12:30:00
+    notes: null
+-   recipe: rollitos de berenjena/Auberginenrollen
+    ingredients:
+    - berenjena
+    - queso feta
+    - tomate frito
+    - cebolla
+    - ajo
+    - alcaparras
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta integral con tomate
+    ingredients:
+    - pasta integral
+    - tomate frito
+    - alcaparras
+    - cebolla
+    - ajo
+    - albahaca
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-18 12:30:00
+    notes: null
+-   recipe: lentejas rojas con lima y cilantro
+    ingredients:
+    - lentejas rojas
+    - lima
+    - cilantro
+    - zanahoria
+    - comino molido
+    - cebolla roja
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de calabacín
+    ingredients:
+    - calabacín
+    - huevo
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-22 18:30:00
+    notes: null
+-   recipe: salmón con patatas
+    ingredients:
+    - salmón
+    - patatas
+    - cebolla
+    - ajo en polvo
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-21 18:30:00
+    notes: null
+-   recipe: salmón con salteado de verduras
+    ingredients:
+    - salmón
+    - pimiento
+    - cebolla
+    - tomate
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de guisantes al limón
+    ingredients:
+    - guisantes
+    - limón
+    - cebolla
+    - caldo de verduras
+    - pimienta negra
+    - menta fresca
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: Zwiebel schälen und sehr fein hacken. Olivenöl in einem Topf erhitzen. Zqeiebel im heen Öl
+        bei schwacher Hitze 3-4 Minuten glasig anschwitzen. Erbsen bis auf ein paar für die Deko zugeben
+        und 2-3 Minuten mitschwitzen. Gemüsebrühe auffüllen und bei schwacher Hitze 5-6 Minuten Köcheln.
+        Mit Salz und Pfeffer abschmecken. Minzeblättchen in feine Streifen schneiden und 1 Minute in der
+        Erbsensuppe mitziehen lassen. Zur Seite gelegte Erbsen in die Suppe geben, SUppe mit Öl beträufeln
+        und mit Mnzeblättchen bestreut servieren.
+-   recipe: judías verdes con piñones, limón y parmesano
+    ingredients:
+    - judía verde redonda fresca
+    - piñones
+    - limón
+    - parmesano
+    - perejil
+    - tomillo en rama
+    - ajo
+    - pimienta negra en grano
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: En un cazo pequeño, confitar los dientes de ajo con la rama de tomillo o romer cubiertos con
+        aceite a fuego mínimo, intentando que no llegue a burbujear (lo ideal son unos 80 grados), unos
+        20 minutos.  Cuando están listos tienen un color algo marrón, textura melosa y un aspecto algo
+        traslúcido. Retirar del fuego y dejar enfriar.  Mientras, lavar las judías y quitarles las puntas.
+        Si se quiere, partirlas por la mitad, aunque si no son muy grandes se pueden comer enteras perfectamente.
+        Hacerlas al vapor durante entre 4 y 10 minutos (lo ideal es ir probando y sacarlas cuando estén
+        al gusto). Pasar a un bol con agua y hielo, enfriar y escurrir o secar.  Hacer una vinagreta con
+        los dientes de ajo aplastados con un tenedor y tres cucharadas del aceite de confitar más una
+        de zumo de limón (reservando las cáscaras lo más enteras posibles) y sal. Tostar los piñones en
+        una sartén a fuego medio hasta que tengan color y huelan bien.  Mezclar las judías a temperatura
+        ambiente con el perejil y aliñar con la vinagreta de ajo y tomillo. Terminar con el queso rallado
+        o en lascas, los piñones, la ralladura del limón y pimienta recién molida.
+-   recipe: tortilla francesa con jamón, champiñones y queso
+    ingredients:
+    - huevo
+    - taquitos de jamón
+    - champiñones
+    - queso parmesano
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: auflauf de verduras
+    ingredients:
+    - berenjena
+    - hinojo
+    - calabacín
+    - queso para pizza
+    - pimentón dulce
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de lechuga, tomate, manzana, nueces y parmesano
+    ingredients:
+    - lechuga
+    - tomate
+    - manzana
+    - nueces
+    - queso parmesano
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: guisantes con jamón
+    ingredients:
+    - guisantes
+    - taquitos de jamón
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta aglio e olio
+    ingredients:
+    - pasta
+    - aceite
+    - orégano
+    - ajo
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-21 12:30:00
+    notes: null
+-   recipe: empanadillas de carne
+    ingredients:
+    - carne de ternera picada
+    - alcaparras
+    - ras-el-hanout
+    - canela
+    - cebolla
+    - ajo
+    - masa para empanadillas
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: risotto
+    ingredients:
+    - arroz para risotto
+    - vino blanco
+    - caldo de verduras
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-22 12:30:00
+    notes: null
+-   recipe: flammkuchen
+    ingredients:
+    - masa para flammkuchen
+    - pera
+    - espárragos trigueros
+    - remolacha
+    - queso de cabra
+    - creme fresh
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: polenta con verduras
+    ingredients:
+    - polenta
+    - zanahoria
+    - cebolla
+    - pimiento
+    - caldo de verduras
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: boniato con espinacas
+    ingredients:
+    - espinacas
+    - boniato
+    - piñones
+    - granada
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: lentejas con verduras y arroz
+    ingredients:
+    - lentejas
+    - cebolla
+    - tomate
+    - zanahoria
+    - apio
+    - comino molido
+    - ajo
+    - arroz
+    lunch: true
+    dinner: false
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pollo al curry
+    ingredients:
+    - pollo
+    - leche de coco
+    - curry
+    - cúrcuma
+    - comino molido
+    - cebolla
+    - ajo
+    - tomate frito
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: sopa de fideos
+    ingredients:
+    - fideos
+    - calabacín
+    - zanahoria
+    - caldo de verduras
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de brócoli
+    ingredients:
+    - brócoli
+    - patatas
+    - cebolla
+    - caldo de verduras
+    - leche
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de boniato
+    ingredients:
+    - boniato
+    - zanahoria
+    - gengibre
+    - patatas
+    - cebolla
+    - caldo de verduras
+    - leche
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta al pesto
+    ingredients:
+    - pasta
+    - nueces
+    - albahaca fresca
+    - ajo
+    - aceite
+    - queso parmesano
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tortilla de calabacín y lomos de atún a la plancha
+    ingredients:
+    - huevo
+    - calabacín
+    - cebolla
+    - patatas
+    - queso parmesano
+    - ajo
+    - aceite
+    - lomos de atún
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: abendbrot
+    ingredients:
+    - pan
+    - tomate
+    - pepino
+    - queso
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: abendbrot con ceviche de salmon
+    ingredients:
+    - pan
+    - tomate
+    - pepino
+    - queso
+    - salmón ahumado
+    - lima
+    - cebolla roja
+    - maíz
+    - cilantro fresco
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: abendbrot con hummus y palitos de zanahoría y apio
+    ingredients:
+    - pan
+    - tomate
+    - pepino
+    - queso manchego
+    - zanahoria
+    - apio
+    - garbanzos de bote
+    - comino molido
+    - tahini
+    - ajo
+    - limón
+    - pimentón
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: abendbrot con tortilla de patatas
+    ingredients:
+    - pan
+    - tomate
+    - pepino
+    - queso manchego
+    - patatas
+    - huevo
+    - cebolla
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tortilla de patatas
+    ingredients:
+    - patatas
+    - huevo
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: albondigas en caldo con arroz
+    ingredients:
+    - carne picada
+    - caldo de verduras
+    - harina
+    - pan rallado
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: arroz amarillo con coliflor y rotkohl
+    ingredients:
+    - arroz
+    - cúrcuma
+    - caldo de verduras
+    - col roja
+    - coliflor
+    - ajo
+    - zanahoria
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: arroz blanco con salsa de tomate y verduras
+    ingredients:
+    - arroz
+    - tomate triturado
+    - calabacín
+    - alcaparras
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: arroz con cúrcuma y verduras
+    ingredients:
+    - arroz
+    - cúrcuma
+    - caldo de verduras
+    - ajo
+    - zanahoria
+    - calabacín
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: arroz con verduras, salmón y gambas
+    ingredients:
+    - arroz
+    - cúrcuma
+    - pimiento
+    - cebolla
+    - alcaparras
+    - salmón
+    - gambas
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: berenjena al horno con arroz, carne y salsa de yogur
+    ingredients:
+    - berenjena
+    - arroz
+    - yogur
+    - carne
+    - yogur
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: berenjena en rollitos de queso feta con salsa de tomate
+    ingredients:
+    - berenjena
+    - queso feta
+    - tomate triturado
+    - alcaparras
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: berenjena en salsa de tomate
+    ingredients:
+    - berenjena
+    - tomate triturado
+    - alcaparras
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: berenjenas rellenas con ternera picada, cuscús y mozarella
+    ingredients:
+    - berenjena
+    - ternera picada
+    - cuscús
+    - queso mozarella
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: bratwurst mit rohtkol und kartoffeln
+    ingredients:
+    - rotkohl
+    - patatas
+    - bratwurst
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: burger mit sußkartoffeln pommes (takeout)
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ceviche de salmón y crema de champiñones
+    ingredients:
+    - salmón ahumado
+    - maíz
+    - cebolla roja
+    - cilantro fresco
+    - lima
+    - champiñones
+    - patatas
+    - cebolla
+    - ajo
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ceviche de salmón, rábanos con vinagre y cuscús de coliflor
+    ingredients:
+    - salmón ahumado
+    - maíz
+    - cebolla roja
+    - cilantro fresco
+    - lima
+    - rábanos
+    - vinagre
+    - coliflor
+    - ras el hanout
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: chili sin carne
+    ingredients:
+    - maíz
+    - tomate frito
+    - cebolla
+    - ajo
+    - judías rojas
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: colifor a la mostaza
+    ingredients:
+    - coliflor
+    - mantequilla
+    - cebolla
+    - comino
+    - curry
+    - queso cheddar
+    - chilis verdes
+    - mostaza
+    - nata
+    - pan blanco
+    - perejil fresco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de apio con croutons, mozarella y tomate
+    ingredients:
+    - apio
+    - pan blanco
+    - patatas
+    - cebolla
+    - queso mozarella
+    - tomates
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de calabacín con croutons
+    ingredients:
+    - calabacín
+    - patatas
+    - cebolla
+    - leche
+    - pan blanco
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de calabaza con pesto y croutons
+    ingredients:
+    - calabaza
+    - zanahorias
+    - patatas
+    - cebolla
+    - parmesano
+    - nueces
+    - albahaca fresca
+    - gengibre
+    - pan blanco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de champiñones
+    ingredients:
+    - champiñones
+    - patatas
+    - cebolla
+    - leche
+    - pan blanco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de lentejas con arroz
+    ingredients:
+    - lentejas
+    - cebolla
+    - tomate
+    - zanahoria
+    - apio
+    - comino molido
+    - ajo
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de lentejas rojas con arroz
+    ingredients:
+    - lentejas rojas
+    - lima
+    - cilantro
+    - zanahoria
+    - comino molido
+    - cebolla roja
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de remolacha
+    ingredients:
+    - remolacha
+    - vinagre
+    - ajo en polvo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de tomate con croutons y mozarella
+    ingredients:
+    - tomates
+    - zanahorias
+    - cebolla
+    - ajo
+    - pan blanco
+    - queso mozarella
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de zanahoria
+    ingredients:
+    - zanahorias
+    - patatas
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de romanesco
+    ingredients:
+    - romanesco
+    - cebolla
+    - patata
+    - caldo de verduras
+    - creme fresh
+    - nuez moscada
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crêpes con verduras
+    ingredients:
+    - huevo
+    - harina
+    - pimiento
+    - cebolla
+    - berenjena
+    - calabacín
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: cuscús con pollo y verduras
+    ingredients:
+    - cuscús
+    - pechugas de pollo
+    - zanahorias
+    - calabacín
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: cuscús con pollo y verduras en salsa de yogur
+    ingredients:
+    - cuscús
+    - pechugas de pollo
+    - zanahorias
+    - calabacín
+    - pimiento
+    - yogur
+    - ajo en polvo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: cuscús con verduras
+    ingredients:
+    - cuscús
+    - zanahorias
+    - calabacín
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: cuscús de colifor
+    ingredients:
+    - coliflor
+    - ras el hanout
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: empanadillas de ternera sazonada
+    ingredients:
+    - pasta para empanadillas
+    - ternera picada
+    - pasas
+    - ras el hanout
+    - comino
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de apio
+    ingredients:
+    - apio
+    - vinagre
+    lunch: false
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de bulgur con pollo y verduras
+    ingredients:
+    - bulgur
+    - pechuga de pollo
+    - calabacín
+    - zanahoria
+    - eneldo
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://www.quericavida.com/recetas/pollo-y-vegetales-con-bulgur/d55572b8-440d-462d-859d-4f80e2120cf0
+-   recipe: ensalada de bulgur con pollo, pasas y manzanas
+    ingredients:
+    - bulgur
+    - pechuga de pollo
+    - manzana
+    - pepino
+    - pasas
+    - menta
+    - limón
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://lasmariacocinillas.com/2016/05/ensalada-de-bulgur-con-pollo-manzana-y.html/
+-   recipe: ensalada de escarola, hinojo y brotes de soja
+    ingredients:
+    - escarola
+    - hinojo
+    - brotes de soja
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de garbanzos
+    ingredients:
+    - garbanzos
+    - maíz
+    - cebolla roja
+    - lima
+    - cilantro fresco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de garbanzos y tortilla de patatas
+    ingredients:
+    - garbanzos
+    - maíz
+    - cebolla roja
+    - lima
+    - cilantro fresco
+    - huevo
+    - cebolla
+    - patata
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de lechuga
+    ingredients:
+    - lechuga
+    - tomate
+    - zanahoria
+    - aceitunas
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de patata y espinaca fresca
+    ingredients:
+    - patata
+    - yogur
+    - curry
+    - pimienta negra en grano
+    - espinaca baby
+    - comino
+    - cilantro
+    - limón
+    - granada
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://elcomidista.elpais.com/elcomidista/2017/12/13/receta/1513192753_533951.html
+-   recipe: ensalada de pepino, apio, maíz y menta
+    ingredients:
+    - pepino
+    - apio
+    - maíz
+    - menta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de tomate y pepino
+    ingredients:
+    - tomates
+    - pepino
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de tiras de zanahoria
+    ingredients:
+    - zanahorias
+    - pimentón
+    - ajo en polvo
+    - miel
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: estofado de ternera
+    ingredients:
+    - ternera troceada
+    - zanahorias
+    - cebolla
+    - patatas
+    - pimiento rojo
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: Batir las verduras una vez cocidas para mejor consistencia
+-   recipe: filetes de atún con ensalada de pepino, apio, maiz y menta
+    ingredients:
+    - filetes de atún
+    - pepino
+    - apio
+    - maíz
+    - menta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de atún con ensalada de tiras de zanahoria
+    ingredients:
+    - filetes de atún
+    - zanahorias
+    - pimentón
+    - ajo en polvo
+    - miel
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de atún con patatas
+    ingredients:
+    - filetes de atún
+    - cebolla
+    - ajo
+    - patatas
+    - romero/tomillo en rama
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de atún con revuelto de setas
+    ingredients:
+    - filetes de atún
+    - huevo
+    - champiñones
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-18 18:30:00
+    notes: null
+-   recipe: filetes de atún con revuelto de verduras
+    ingredients:
+    - filetes de atún
+    - huevo
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de atún con salteado de verduras
+    ingredients:
+    - filetes de atún
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con ensalada de pepino, apio, maiz y menta
+    ingredients:
+    - filetes de bacalao
+    - pepino
+    - apio
+    - maíz
+    - menta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con ensalada de tiras de zanahoria
+    ingredients:
+    - filetes de bacalao
+    - zanahorias
+    - pimentón
+    - ajo en polvo
+    - miel
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con montaditos de calabacín y feta
+    ingredients:
+    - filetes de bacalao
+    - calabacín
+    - queso feta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con patatas
+    ingredients:
+    - filetes de bacalao
+    - patatas
+    - cebolla
+    - ajo en polvo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con revuelto de setas
+    ingredients:
+    - filetes de bacalao
+    - huevo
+    - champiñones
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con revuelto de verduras
+    ingredients:
+    - filetes de bacalao
+    - huevo
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de bacalao con salteado de verduras
+    ingredients:
+    - filetes de bacalao
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con cuscús
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - cuscús
+    - pasas
+    - ras el hanout
+    - zanahoria
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con ensalada de pepino, apio, maiz y menta
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - pepino
+    - apio
+    - maíz
+    - menta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con patatas
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - patatas
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con pure de lentejas
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - lentejas
+    - zanahoria
+    - apio
+    - cebolla
+    - comino
+    - caldo de verduras
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con revuelto de setas
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - huevo
+    - champiñones
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con revuelto de verduras
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - huevo
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de carne con taboulé
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - bulgur
+    - cebolletas
+    - perejil fresco
+    - hierbabuena fresca
+    - tomates
+    - limón
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: http://recetasarabes.com/receta/tabule-o-tabbouleh-receta-autentica/
+-   recipe: filetes de carne con verduras
+    ingredients:
+    - filetes de pollo/pavo/cerdo/ternera
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con ensalada de pepino, apio, maiz y menta
+    ingredients:
+    - filetes de salmón
+    - pepino
+    - apio
+    - maíz
+    - menta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con ensalada de tiras de zanahoria
+    ingredients:
+    - filetes de salmón
+    - zanahorias
+    - pimentón
+    - ajo en polvo
+    - miel
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con montaditos de calabacín y feta
+    ingredients:
+    - filetes de salmón
+    - calabacín
+    - queso feta
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con patatas
+    ingredients:
+    - filetes de salmón
+    - patatas
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con revuelto de setas
+    ingredients:
+    - filetes de salmón
+    - huevo
+    - champiñones
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con revuelto de verduras
+    ingredients:
+    - filetes de salmón
+    - huevo
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: filetes de salmón con salteado de verduras
+    ingredients:
+    - filetes de salmón
+    - calabacín
+    - berenjena
+    - cebolla
+    - pimiento
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: gazpacho
+    ingredients:
+    - tomate
+    - pan
+    - ajo
+    - aceite
+    - pepino
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: gnocci
+    ingredients:
+    - gnocci
+    - queso feta
+    - espinacas
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-19 18:30:00
+    notes: null
+-   recipe: green curry
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: guacamole y tacos con carne
+    ingredients:
+    - aguacate
+    - cebolla
+    - maíz
+    - tomate
+    - lima
+    - carne picada
+    - ajo
+    - tortillas para tacos
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-23 18:30:00
+    notes: null
+-   recipe: hamburgesa y patatas [takeaway]
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: huevos fritos con patatas y jamón
+    ingredients:
+    - huevo
+    - patatas
+    - jamón serrano
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: judías verdes con jamón
+    ingredients:
+    - judías verdes
+    - jamón en tacos
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: judías verdes con parmesano y confitado de ajo y limón
+    ingredients:
+    - judías verdes
+    - queso parmesano
+    - piñones
+    - limón
+    - ajo
+    - tomillo en rama
+    - perejil fresco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://elcomidista.elpais.com/elcomidista/2015/09/02/receta/1441209721_325904.html
+-   recipe: kichererbsen mit spinat (zeit no21)
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: kumpir
+    ingredients:
+    - patatas
+    - cebollino
+    - tomate seco
+    - aceitunas negras
+    - sauercream
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: lasaña de calabaza
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: lasaña de espinacas
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: lentejas con chorizo
+    ingredients:
+    - lentejas
+    - chorizo
+    - cebolla
+    - tomate
+    - zanahoria
+    - apio
+    - comino molido
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: moussaka de verduras (auflauf)
+    ingredients:
+    - zanahoria
+    - queso mozarella para pizza
+    - calabacín
+    - berenjena
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: nachos, enchilada y fajitas [takeaway]
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta aglio e olio con espaguetis de calabacín
+    ingredients:
+    - calabacín
+    - ajo en polvo
+    - chili
+    - aceite
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta boloñesa
+    ingredients:
+    - pasta
+    - carne picada
+    - cebolla
+    - ajo
+    - zanahorias
+    - alcaparras
+    - tomate frito
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta con feta y tomate secos
+    ingredients:
+    - pasta
+    - queso feta
+    - tomates secos
+    - ajo en polvo
+    - orégano
+    - chili en polvo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pasta con pesto verde
+    ingredients:
+    - pasta
+    - albahaca fresca
+    - nueces
+    - ajo
+    - queso parmesano
+    - aceite
+    - pimienta
+    - sal
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pimientos de padrón asados y cuscús de coliflor
+    ingredients:
+    - pimientos de padrón
+    - coliflor
+    - pasas
+    - ras el hanout
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pizza con anchoas y champiñones
+    ingredients:
+    - masa de pizza
+    - tomate frito
+    - queso mozarella para pizza
+    - anchoas
+    - champiñones
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: plato combinado de falafel [takeway]
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: polenta de limón con verduras y cúrcuma
+    ingredients:
+    - polenta
+    - limón
+    - cebolla
+    - pimiento
+    - cúrcuma
+    - caldo de verduras
+    - limón
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pollo al curry con arroz
+    ingredients:
+    - pollo en tiras
+    - leche de coco
+    - curry
+    - cúrcuma
+    - pimentón dulce
+    - cebolla
+    - ajo
+    - arroz
+    - cilantro fresco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pollo con arroz, guisantes y zatziki
+    ingredients:
+    - pollo en tiras
+    - arroz
+    - guisantes
+    - yogur
+    - pepino
+    - menta fresca
+    - ajo
+    - limón
+    - pimienta negra
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://www.directoalpaladar.com/recetas-de-aperitivos/tzatziki-griego-receta-de-aperitivo
+-   recipe: pollo con verduras y arroz
+    ingredients:
+    - pollo en tiras
+    - pimiento
+    - cebolla
+    - ajo
+    - zanahoria
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: pollo en salsa con tomate y arroz
+    ingredients:
+    - pollo en tiras
+    - tomate frito
+    - pimiento
+    - cebolla
+    - alcaparras
+    - zanahoria
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: potaje de garbanzos al curry
+    ingredients:
+    - garbanzos de bote
+    - ajo
+    - cebolla
+    - gengibre
+    - curry
+    - comino
+    - cúrcuma
+    - pimienta negra molida
+    - chili en polvo
+    - leche de coco
+    - tomate frito
+    - lima
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-17 12:30:00
+    notes: https://danzadefogones.com/curry-de-garbanzos/
+-   recipe: potaje de garbanzos con chorizo
+    ingredients:
+    - garbanzos
+    - chorizo
+    - zanahoria
+    - cebolla
+    - pimiento
+    - puerro
+    - pimentón dulce
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: potaje de garbanzos con espinacas
+    ingredients:
+    - garbanzos
+    - espinacas
+    - zanahoria
+    - cebolla
+    - pimiento
+    - puerro
+    - pimentón dulce
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: potaje de garbanzos con espinacas y chorizo
+    ingredients:
+    - garbanzos
+    - chorizo
+    - espinacas
+    - zanahoria
+    - cebolla
+    - pimiento
+    - puerro
+    - pimentón dulce
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: potaje de garbanzos con verduras
+    ingredients:
+    - garbanzos
+    - zanahoria
+    - cebolla
+    - pimiento
+    - puerro
+    - pimentón dulce
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: potaje de garbanzos con verduras y carne
+    ingredients:
+    - garbanzos
+    - panceta
+    - zanahoria
+    - cebolla
+    - pimiento
+    - puerro
+    - pimentón dulce
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de calabacín y champiñones
+    ingredients:
+    - huevo
+    - calabacín
+    - champiñones
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de calabacín y trigueros
+    ingredients:
+    - huevo
+    - calabacín
+    - espárragos verdes
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de champiñones
+    ingredients:
+    - huevo
+    - champiñones
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de espinaca con jamón y cebolla
+    ingredients:
+    - huevo
+    - espinacas
+    - jamón en tacos
+    - cebolla
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: revuelto de trigueros
+    ingredients:
+    - huevo
+    - espárragos verdes
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: rote curry linsen
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: salmorejo
+    ingredients:
+    - pan blanco
+    - tomates
+    - ajo
+    - huevo
+    - jamón serrano
+    - vinagre
+    - aceite
+    - sal
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: salteado de pavo en tiras y verduras con arroz
+    ingredients:
+    - pavo en tiras
+    - cebolla
+    - pimiento
+    - zanahoria
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: salteado de verduras con arroz
+    ingredients:
+    - cebolla
+    - pimiento
+    - zanahoria
+    - calabacín
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: sopa castellana
+    ingredients:
+    - pan blanco
+    - pimentón dulce
+    - ajo
+    - huevo
+    - jamón en tacos
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-20 12:30:00
+    notes: null
+-   recipe: sopa de fideos con zanahoria y calabacín
+    ingredients:
+    - null
+    - fideos
+    - caldo de verduras
+    - pollo
+    - zanahoria
+    - calabacín
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: sushi [takeway]
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: sußkartoffeln mit spinat
+    ingredients:
+    - sußkartoffeln
+    - espinacas
+    - creme fresh
+    - granada
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de sußkartoffeln-karotten con croutons
+    ingredients:
+    - sußkartoffeln
+    - zanahoria
+    - patata
+    - gengibre
+    - leche de coco
+    - caldo de verduras
+    - pan blanco
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: crema de sußkartoffeln-karotten con arroz
+    ingredients:
+    - sußkartoffeln
+    - zanahoria
+    - patata
+    - gengibre
+    - leche de coco
+    - caldo de verduras
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: sándwich club
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: süßkartoffel-linsensuppe
+    ingredients:
+    - boniato
+    - lentejas rojas
+    - pasta de curry rojo
+    - leche de coco
+    - babyspinat
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ternera en salsa con tomate y arroz
+    ingredients:
+    - ternera en trozos
+    - tomate frito
+    - alcaparras
+    - cebolla
+    - orégano
+    - ajo
+    - zanahoria
+    - pimiento
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ternera sazonada al horno con verduras, aguacate, cilantro y arroz
+    ingredients:
+    - ternera picada
+    - cebolla
+    - ajo
+    - alcaparras
+    - ajo en polvo
+    - ras el hanout
+    - aguacate
+    - cilantro fresco
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tiras de ternera con arroz, guisantes y zatziki
+    ingredients:
+    - ternera en tiras
+    - arroz
+    - guisantes
+    - yogur
+    - pepino
+    - menta fresca
+    - ajo
+    - limón
+    - pimienta negra
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tiras de ternera con verduras y arroz
+    ingredients:
+    - ternera en tiras
+    - pimiento
+    - cebolla
+    - ajo
+    - zanahoria
+    - arroz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tofu suppe [takeaway]
+    ingredients:
+    - null
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tortilla francesa de habichuelillas con jamón
+    ingredients:
+    - huevo
+    - habichuelillas verdes
+    - jamón en tacos
+    - ajo
+    - cebolla
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tortilla francesa de salmón, cebolla y pimiento
+    ingredients:
+    - huevo
+    - cebolla
+    - pimiento
+    - salmón
+    - ajo
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: tostadas francesas
+    ingredients:
+    - huevo
+    - pan
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: veggie bowl con quinoa, aguacate, coliflor, remolacha y espinacas baby
+    ingredients:
+    - quinoa
+    - aguacate
+    - coliflor
+    - remolacha
+    - espinacas baby
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: weißwürst con mostaza y mazorcas de maíz
+    ingredients:
+    - weißwürst
+    - mostaza
+    - mazorcas de maíz
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: ensalada de lenteja de beluga
+    ingredients:
+    - lentejas de beluga
+    - mango
+    - cebolla
+    - cilantro fresco
+    - aceite de oliva
+    - vinagre
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: null
+-   recipe: veggie curry con arroz
+    ingredients:
+    - zanahoria
+    - pimiento
+    - brócoli
+    - cebolla
+    - cilantro fresco
+    - aceite de oliva
+    - arroz blanco
+    - leche de coco
+    - curry
+    - cúrcuma
+    - comino
+    - pimentón
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-23 12:30:00
+    notes: null
+-   recipe: Zucchini-Kartoffel-Puffer mit Schnittlauchquark
+    ingredients:
+    - patatas
+    - calabacín
+    - harina
+    - huevo
+    - sal
+    - pimienta
+    - schnittlauch
+    - schalotte
+    - quark
+    - limón
+    lunch: true
+    dinner: true
+    count: 1
+    date: 2021-04-20 18:30:00
+    notes: https://berlinmitkind.de/familienleben/rezepte/zucchini-kartoffel-puffer-mit-schnittlauchquark/?ct=t(EMAIL_CAMPAIGN_BERLIN-WE-TIPPS-2021-KW15)
+-   recipe: ensalada de calabacín, rúcula, avellanas y aliño de yogur
+    ingredients:
+    - calabacín
+    - rúcula
+    - yogur
+    - avellanas
+    - lima
+    - hierbas provenzales
+    - aceite de oliva
+    - sal fina
+    - pimienta negra molida
+    lunch: true
+    dinner: true
+    count: 0
+    date: 1970-01-01 00:00:00
+    notes: https://elcomidista.elpais.com/elcomidista/2021/05/25/receta/1621939834_512596.html
